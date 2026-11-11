@@ -32,7 +32,7 @@ input {
 	width: 400px;
 }
 
-button {
+#lookup {
     	background-color: #39bd95;
     	color: white;
     	padding: 10px 20px;
@@ -40,8 +40,20 @@ button {
     	cursor: pointer;
 }
 
-button:hover {
+#lookup:hover {
     background-color: #32a885;
+}
+
+#lookup-cities {
+        background-color: #1b8be0;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+}
+
+#lookup-cities:hover {
+    background-color: #1977bf;
 }
 
 table {
