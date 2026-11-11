@@ -2,11 +2,11 @@
 
 body {
 	margin: 0;
-	padding: 0:
+	padding: 0;
         font-family: "Cabin", BlinkMacSystemFont, "Segoe UI", sans-serif;
 	font-size: 16px;
 	font-style: normal;
-        background-color: #f4f4f4;
+        background-color: #f1f6fa;
 	flex-direction: column;
 	text-align: center;
 }
@@ -42,4 +42,28 @@ button {
 
 button:hover {
     background-color: #32a885;
+}
+
+table {
+	width: 50%;
+	margin: 20px auto;
+	border-collapse: collapse;
+	background-color: white;
+}
+
+th {
+	background-color: #ffffff;
+}
+
+td {
+	padding: 10px;
+	text-align: left;
+}
+
+tr:nth-child(even) {
+	background-color: #f1f6fa;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
 }
